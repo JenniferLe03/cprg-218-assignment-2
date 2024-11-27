@@ -6,7 +6,7 @@ document.getElementById("gen_6").addEventListener("click", displayGen6);
 
 
 function displayIntro(){
-    document.getElementById("pokemon_content").innerHTML = "Welcome to the Evolution of Pokémon Game Graphics! On this website, we briefly examine the different generations and how the series has transformed its art style to captivate players over the years. Join us as we review the subtle changes that have occurred and how it has impacted players.";
+    document.getElementById("pokemon_content").innerHTML = "Welcome to the Evolution of Pokémon Game Graphics! On this website, we briefly examine the different Pokémon Game generations and how the series has transformed its art style to captivate players over the years. Join us as we review the subtle changes that have occurred and how it has impacted players.";
     document.getElementById("banner").src="images/default.jpg";
     document.getElementById("banner").alt="The evolution of Pokémon graphics from the first-generation to the 8th";
     console.log("Gotta Catch 'Em All")
@@ -27,14 +27,14 @@ function displayGen2(){
 }
 
 function displayGen3(){
-    document.getElementById("pokemon_content").innerHTML = "The graphics of Pokémon Generations 3-5 showcase the evolution of 2D-pixel designs and dynamic environments. Shadows, animation and camera angles were introduced, offering a more engaging, visually appealing and immersive experience. The combined generations marked significant advancements in user interface design, delivering a charming and increasingly cinematic adventure for players.";
+    document.getElementById("pokemon_content").innerHTML = "The graphics of Pokémon Generations 3-5 showcase the evolution of 2D-pixel designs and dynamic environments. Shadows, animation and camera angles were introduced, making the experience far more engaging, visually appealing and interactive. The combined generations mark significant advancements in user interface design, where the game continues to deliver a charming and increasingly cinematic adventure for players.";
     document.getElementById("banner").src="images/gen3.jpg";
     document.getElementById("banner").alt="The graphics for the Pokémon game, third-generation";
     console.log("Gen3 Pokédex Complete")
 }
 
 function displayGen6(){
-    document.getElementById("pokemon_content").innerHTML = "The graphics of Pokémon Generation 6-8 highlight the transition to 3D models for its characters and landscapes. With more dynamic environments, detailed animations and versatile camera angles, the game became more engaging and immersive. Additionally, the game expanded beyond fixed adventures and dialogue, introducing characters with greater expression, relatability and depth. As technology advances and player expectations evolve, it will be exciting to see how Pokémon continues to enhance its visual designs and interface.";
+    document.getElementById("pokemon_content").innerHTML = "The graphics of Pokémon Generation 6-8 highlight the transition to 3D models for its characters and landscapes. With more dynamic environments, detailed animations and versatile camera angles, the game continued to build on its engagement and immersive capabilities. Additionally, the game expanded beyond fixed adventures and dialogue, introducing characters with greater expression, relatability and depth. As technology advances and player expectations evolve, it will be exciting to see how Pokémon continues to enhance its visual designs and interface.";
     document.getElementById("banner").src="images/gen6.jpg";
     document.getElementById("banner").alt="The graphics for the Pokémon game, sixth-generation";
     console.log("Gen6 Pokédex Complete")
