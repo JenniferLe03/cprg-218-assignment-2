@@ -4,7 +4,6 @@ document.getElementById("gen_2").addEventListener("click", displayGen2);
 document.getElementById("gen_3").addEventListener("click", displayGen3);
 document.getElementById("gen_6").addEventListener("click", displayGen6);
 
-
 function displayIntro(){
     document.getElementById("pokemon_content").innerHTML = "Welcome to the Evolution of Pokémon Game Graphics! On this website, we briefly examine the different Pokémon Game generations and how the series has transformed its art style to captivate players over the years. Join us as we review the subtle changes that have occurred and how it has impacted players.";
     document.getElementById("banner").src="images/default.jpg";

@@ -38,6 +38,12 @@ body{
             color: #0d1c3e;
             border: 3px solid #f795e8;
         }
+
+        button.active{
+            background-color: #efe2e1;
+            color: #0d1c3e;
+            border: 3px solid #f795e8;
+        }
     }
 
     main{
